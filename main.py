@@ -18,4 +18,4 @@ def get_temp(city: str):
     return {"temperature": response.json()["main"]["temp"]}
 
 #programı çalıştırma
-uvicorn.run(app, host='0.0.0.0', port=5000)
+#uvicorn.run(app, host='0.0.0.0', port=5000)
