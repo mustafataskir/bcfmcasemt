@@ -4,7 +4,7 @@ ADD . /case
 
 WORKDIR /case
 
-#COPY . /case
+COPY . /case
 
 RUN pip install --no-cache-dir --upgrade -r /case/requirements.txt
 
