@@ -8,4 +8,4 @@ COPY . /case
 
 RUN pip install --no-cache-dir --upgrade -r /case/requirements.txt
 
-CMD ["python", "/case/app/main.py"]
+CMD ["python", "main.py"]
